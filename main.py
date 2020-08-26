@@ -51,7 +51,7 @@ if header:
 
         textarea = driver.find_element_by_tag_name("textarea")
         textarea.send_keys(message)
-        #textarea.send_keys(Keys.RETURN)
+        textarea.send_keys(Keys.RETURN)
 
         time.sleep(2)
         driver.quit()
